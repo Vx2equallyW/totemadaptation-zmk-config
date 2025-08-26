@@ -1,0 +1,12 @@
+file_format: "1"
+id: totem
+name: totem
+type: shield
+url: https://github.com/vx2equallyw/totemadaptation-zmk-config
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - totem_left
+  - totem_right
