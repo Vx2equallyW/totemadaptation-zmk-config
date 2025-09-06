@@ -18,11 +18,10 @@
             };
         };
 
-        behaviors {
-            &mt {
-                flavor = "tap-preferred";
-            };
-        }
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+        };
 
         keymap {
                 compatible = "zmk,keymap";
