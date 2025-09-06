@@ -19,7 +19,7 @@
         };
 
         behaviors {
-            &mt {
+            mt {
                 flavor = "tap-preferred";
             };
         };
